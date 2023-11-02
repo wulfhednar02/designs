@@ -1,0 +1,32 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @VDD @VSS @symname"
+template="name=x1 VDD=VDD VSS=GND"
+extra="VDD VSS"
+}
+V {}
+S {}
+E {}
+L 4 -40 -40 -40 40 {}
+L 4 60 -40 60 40 {}
+L 4 60 -30 80 -30 {}
+L 4 -60 -30 -40 -30 {}
+L 4 -60 -10 -40 -10 {}
+L 4 -60 10 -40 10 {}
+L 4 -60 30 -40 30 {}
+L 4 -40 -40 60 -40 {}
+L 4 -40 40 60 40 {}
+B 5 77.5 -32.5 82.5 -27.5 {name=DACOUT dir=out}
+B 5 -62.5 -32.5 -57.5 -27.5 {name=DAC3 dir=in}
+B 5 -62.5 -12.5 -57.5 -7.5 {name=DAC2 dir=in}
+B 5 -62.5 7.5 -57.5 12.5 {name=DAC1 dir=in}
+B 5 -62.5 27.5 -57.5 32.5 {name=DAC0 dir=in}
+T {@symname} -40 -60 0 0 0.3 0.3 {}
+T {@name} 20 40 0 0 0.2 0.2 {}
+T {DACOUT} 55 -34 0 1 0.2 0.2 {}
+T {DAC3} -35 -34 0 0 0.2 0.2 {}
+T {DAC2} -35 -14 0 0 0.2 0.2 {}
+T {DAC1} -35 6 0 0 0.2 0.2 {}
+T {DAC0} -35 26 0 0 0.2 0.2 {}

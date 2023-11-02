@@ -1,0 +1,61 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1698900908
+<< error_s >>
+rect 137 6118 191 6124
+rect 124 6106 191 6118
+rect 124 6090 204 6106
+rect 205 6090 252 6137
+rect 277 6090 324 6137
+rect 349 6090 396 6137
+rect 421 6090 468 6137
+rect 493 6090 540 6137
+rect 13 6056 540 6090
+rect 13 6026 204 6056
+rect -26 533 690 6026
+rect -57 482 690 533
+rect -57 463 -35 482
+rect -105 22 -36 91
+rect -26 46 690 482
+rect -35 22 690 46
+rect -105 21 690 22
+rect -467 20 690 21
+rect -26 -20 690 20
+rect -467 -21 -36 -20
+rect -35 -26 690 -20
+rect -35 -27 36 -26
+rect -35 -46 35 -27
+rect 60 -40 100 -26
+rect 132 -40 142 -26
+rect -17 -102 17 -77
+rect -17 -140 17 -115
+rect -17 -174 17 -149
+rect -17 -212 17 -187
+rect -17 -246 17 -221
+rect -17 -284 17 -259
+rect -17 -318 17 -293
+rect -17 -356 17 -331
+rect -17 -390 17 -365
+rect -17 -428 17 -403
+use nfet$10  nfet$10_0
+timestamp 1698900908
+transform 1 0 0 0 1 0
+box -26 -40 690 6106
+use nfet  nfet_0
+timestamp 1698900908
+transform 1 0 0 0 1 0
+box -26 -40 276 306
+use pfet$6  pfet$6_0
+timestamp 1698900908
+transform 1 0 0 0 1 0
+box -61 -76 1534 8144
+use res_poly$3  res_poly$3_0
+timestamp 1698900908
+transform 1 0 0 0 1 0
+box -35 -482 35 482
+use res_poly$4  res_poly$4_0
+timestamp 1698900908
+transform 1 0 0 0 1 0
+box -467 -458 467 458
+<< end >>
