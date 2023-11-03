@@ -1,59 +1,61 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698900908
+timestamp 1698982078
 << metal1 >>
-rect 0 133 74 144
-rect 0 81 11 133
-rect 63 81 74 133
-rect 0 63 74 81
-rect 0 11 11 63
-rect 63 11 74 63
-rect 0 0 74 11
+rect 1 133 75 144
+rect 1 81 12 133
+rect 64 81 75 133
+rect 1 63 75 81
+rect 1 11 12 63
+rect 64 11 75 63
+rect 1 0 75 11
 << via1 >>
-rect 11 81 63 133
-rect 11 11 63 63
+rect 12 81 64 133
+rect 12 11 64 63
 << metal2 >>
-rect -1 290 75 299
-rect -1 234 9 290
-rect 65 234 75 290
-rect -1 210 75 234
-rect -1 154 9 210
-rect 65 154 75 210
-rect -1 133 75 154
-rect -1 81 11 133
-rect 63 81 75 133
-rect -1 63 75 81
-rect -1 11 11 63
-rect 63 11 75 63
-rect -1 0 75 11
+rect 0 290 76 298
+rect 0 234 10 290
+rect 66 234 76 290
+rect 0 210 76 234
+rect 0 154 10 210
+rect 66 154 76 210
+rect 0 133 76 154
+rect 0 81 12 133
+rect 64 81 76 133
+rect 0 63 76 81
+rect 0 11 12 63
+rect 64 11 76 63
+rect 0 0 76 11
 << via2 >>
-rect 9 234 65 290
-rect 9 154 65 210
+rect 10 234 66 290
+rect 10 154 66 210
 << metal3 >>
-rect -1 454 75 460
-rect -1 390 5 454
-rect 69 390 75 454
-rect -1 374 75 390
-rect -1 310 5 374
-rect 69 310 75 374
-rect -1 290 75 310
-rect -1 234 9 290
-rect 65 234 75 290
-rect -1 210 75 234
-rect -1 154 9 210
-rect 65 154 75 210
-rect -1 144 75 154
+rect 0 294 76 299
+rect 0 230 6 294
+rect 70 230 76 294
+rect 0 214 76 230
+rect 0 150 6 214
+rect 70 150 76 214
+rect 0 144 76 150
 << via3 >>
-rect 5 390 69 454
-rect 5 310 69 374
+rect 6 290 70 294
+rect 6 234 10 290
+rect 10 234 66 290
+rect 66 234 70 290
+rect 6 230 70 234
+rect 6 210 70 214
+rect 6 154 10 210
+rect 10 154 66 210
+rect 66 154 70 210
+rect 6 150 70 154
 << metal4 >>
-rect 7 460 67 518
-rect -1 454 75 460
-rect -1 390 5 454
-rect 69 390 75 454
-rect -1 374 75 390
-rect -1 310 5 374
-rect 69 310 75 374
-rect -1 304 75 310
+rect 8 299 68 518
+rect 0 294 76 299
+rect 0 230 6 294
+rect 70 230 76 294
+rect 0 214 76 230
+rect 0 150 6 214
+rect 70 150 76 214
+rect 0 144 76 150
 << end >>

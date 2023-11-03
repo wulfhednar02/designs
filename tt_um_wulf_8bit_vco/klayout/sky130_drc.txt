@@ -3,8 +3,32 @@
  <description>SKY130 DRC runset</description>
  <original-file/>
  <generator>drc: script='/usr/local/share/pdk/sky130A/libs.tech/klayout/drc/sky130A.lydrc'</generator>
- <top-cell>pin_connect</top-cell>
+ <top-cell>tt_um_wulf_8bit_vco</top-cell>
  <tags>
+  <tag>
+   <name>red</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>green</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>blue</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>yellow</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>waived</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>important</name>
+   <description/>
+  </tag>
  </tags>
  <categories>
   <category>
@@ -1006,7 +1030,7 @@
  </categories>
  <cells>
   <cell>
-   <name>pin_connect</name>
+   <name>tt_um_wulf_8bit_vco</name>
    <variant/>
    <references>
    </references>
@@ -1015,68 +1039,79 @@
  <items>
   <item>
    <tags/>
-   <category>'m4.3'</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.035,1.968;0.035,2.252)/(0.085,2.01;0.085,2.21)</value>
+    <value>edge-pair: (19.265,46.26;20.61,46.26)/(20.61,46.26;19.545,46.26)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'m4.3'</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.035,1.568;0.035,1.852)/(0.085,1.61;0.085,1.81)</value>
+    <value>edge-pair: (104.205,101.45;105.13,101.45)/(105.13,101.45;104.485,101.45)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'m4.3'</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.335,2.252;0.335,1.968)/(0.285,2.21;0.285,2.01)</value>
+    <value>edge-pair: (20.89,48.85;19.545,48.85)/(19.545,48.85;20.61,48.85)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'m4.3'</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.335,1.852;0.335,1.568)/(0.285,1.81;0.285,1.61)</value>
+    <value>edge-pair: (111.125,103.86;111.125,106.85)/(111.125,106.85;111.125,104.14)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>m4_OFFGRID</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.035,2.592;0.035,2.592)/(0.035,2.592;0.035,2.592)</value>
+    <value>edge-pair: (53.205,88.775;54.85,88.775)/(54.85,88.775;53.485,88.775)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>m4_OFFGRID</category>
-   <cell>pin_connect</cell>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (0.335,2.592;0.335,2.592)/(0.335,2.592;0.335,2.592)</value>
+    <value>edge-pair: (55.13,91.965;53.485,91.965)/(53.485,91.965;54.85,91.965)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_wulf_8bit_vco</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>edge-pair: (83.46,106.85;83.46,105.3)/(83.46,105.58;83.46,106.85)</value>
    </values>
   </item>
  </items>
