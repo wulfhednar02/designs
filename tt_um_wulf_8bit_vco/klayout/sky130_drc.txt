@@ -5,30 +5,6 @@
  <generator>drc: script='/usr/local/share/pdk/sky130A/libs.tech/klayout/drc/sky130A.lydrc'</generator>
  <top-cell>tt_um_wulf_8bit_vco</top-cell>
  <tags>
-  <tag>
-   <name>red</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>green</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>blue</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>yellow</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>waived</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>important</name>
-   <description/>
-  </tag>
  </tags>
  <categories>
   <category>
@@ -1037,82 +1013,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (19.265,46.26;20.61,46.26)/(20.61,46.26;19.545,46.26)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (104.205,101.45;105.13,101.45)/(105.13,101.45;104.485,101.45)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (20.89,48.85;19.545,48.85)/(19.545,48.85;20.61,48.85)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (111.125,103.86;111.125,106.85)/(111.125,106.85;111.125,104.14)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (53.205,88.775;54.85,88.775)/(54.85,88.775;53.485,88.775)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (55.13,91.965;53.485,91.965)/(53.485,91.965;54.85,91.965)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m2.3ab'</category>
-   <cell>tt_um_wulf_8bit_vco</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (83.46,106.85;83.46,105.3)/(83.46,105.58;83.46,106.85)</value>
-   </values>
-  </item>
  </items>
 </report-database>
