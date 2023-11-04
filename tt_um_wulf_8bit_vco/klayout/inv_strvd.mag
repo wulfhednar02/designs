@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698982078
+timestamp 1699066547
 << error_s >>
 rect 97 996 6233 1039
 rect 165 307 403 329
@@ -1181,15 +1181,15 @@ rect 238 36 260 88
 rect 312 36 318 88
 rect 180 30 318 36
 use nfet$1  nfet$1_0
-timestamp 1698982078
+timestamp 1699066547
 transform 0 -1 6205 1 0 282
 box -1 0 715 6146
 use nfet$2  nfet$2_0
-timestamp 1698982078
+timestamp 1699066547
 transform 0 -1 389 -1 0 300
 box -1 0 301 346
 use pfet  pfet_0
-timestamp 1698982078
+timestamp 1699066547
 transform 0 -1 8241 1 0 996
 box 0 0 1595 8220
 << labels >>
