@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.54982e-05
-x2=3.55575e-05
+x1=0
+x2=0.000119609
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -40,8 +40,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.54982e-05
-x2=3.55575e-05
+x1=0
+x2=0.000119609
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -54,8 +54,8 @@ logx=0
 logy=0
 
 
-y2=1.9
-y1=-0.033
+y2=1.21251
+y1=1.18748
 
 color="4 5 6"
 node="pctrl
