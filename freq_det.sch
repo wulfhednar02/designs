@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=1.91674e-05
+x1=3.96563e-07
+x2=2.72431e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -40,8 +40,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=1.91674e-05
+x1=3.96563e-07
+x2=2.72431e-06
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -95,128 +95,100 @@ N -840 -60 -840 -30 {
 lab=GND}
 N -840 -30 -740 -30 {
 lab=GND}
-N 240 -200 240 -180 {
-lab=RESET_B}
-N 240 -220 240 -200 {
-lab=RESET_B}
-N 240 -280 240 -260 {
-lab=#net2}
-N 240 -140 240 -120 {
-lab=#net3}
-N 620 -280 620 -220 {
-lab=#net4}
-N 620 -180 620 -120 {
-lab=#net5}
 N -840 -90 -710 -90 {
 lab=ctrl}
-N 240 -440 240 -420 {
-lab=#net6}
-N 240 -420 240 -400 {
-lab=#net6}
-N 440 -420 440 -380 {
-lab=#net6}
-N 240 -360 240 -340 {
-lab=#net7}
-N 240 -500 240 -480 {
-lab=#net8}
-N 620 -400 620 -340 {
-lab=#net9}
-N 620 -500 620 -440 {
-lab=#net10}
 N -180 -140 -40 -140 {
 lab=in2}
-N -180 -120 -60 -120 {
-lab=in1}
 N -440 -90 -350 -90 {
 lab=ctrl}
-N 240 -200 440 -200 {
-lab=RESET_B}
-N 440 -200 440 -160 {
-lab=RESET_B}
-N -60 -200 -60 -120 {
-lab=in1}
 N -900 -60 -880 -60 {
 lab=nctrl}
-N 740 -300 740 -200 {
-lab=nctrl}
-N 740 -420 740 -320 {
-lab=pctrl}
 N -140 40 -120 40 {
 lab=VDD}
-N -40 -420 -20 -420 {
+N -40 -180 -40 -140 {
 lab=in2}
-N -20 -460 -20 -440 {
-lab=#net11}
-N -20 -460 160 -460 {
-lab=#net11}
-N 160 -460 160 -440 {
-lab=#net11}
-N 240 -420 440 -420 {
-lab=#net6}
-N 160 -420 240 -420 {
-lab=#net6}
-N -60 -200 -20 -200 {
-lab=in1}
-N 160 -200 240 -200 {
-lab=RESET_B}
-N 160 -180 160 -160 {
-lab=#net12}
-N -20 -160 160 -160 {
-lab=#net12}
-N -20 -180 -20 -160 {
-lab=#net12}
-N 440 -460 440 -420 {
-lab=#net6}
-N 420 -480 440 -480 {
-lab=#net13}
-N 420 -140 440 -140 {
-lab=#net14}
-N 440 -240 440 -200 {
-lab=RESET_B}
-N -900 -300 740 -300 {
-lab=nctrl}
-N -880 -320 740 -320 {
-lab=pctrl}
-N -880 -320 -880 -120 {
-lab=pctrl}
-N -900 -300 -900 -60 {
-lab=nctrl}
-N -40 -260 -40 -140 {
+N -40 -180 60 -180 {
 lab=in2}
-N -60 -360 -60 -200 {
-lab=in1}
-N -60 -360 120 -360 {
-lab=in1}
-N -60 -480 -60 -360 {
-lab=in1}
-N -40 -260 120 -260 {
+N 60 -180 60 -160 {
 lab=in2}
-N -40 -420 -40 -260 {
+N 20 -120 60 -120 {
+lab=in1}
+N 20 -240 60 -240 {
+lab=in1}
+N 60 -200 60 -180 {
 lab=in2}
-N 200 -260 240 -260 {
+N 20 -320 60 -320 {
 lab=#net2}
-N 200 -360 240 -360 {
-lab=#net7}
-N 420 -360 440 -360 {
-lab=#net15}
-N 420 -260 440 -260 {
-lab=#net16}
-N 240 -500 440 -500 {
-lab=#net8}
-N 240 -340 440 -340 {
-lab=#net7}
-N 240 -280 440 -280 {
+N 20 -440 20 -320 {
 lab=#net2}
-N 240 -120 440 -120 {
-lab=#net3}
-N -40 -140 120 -140 {
+N 20 -440 60 -440 {
+lab=#net2}
+N 60 -380 60 -360 {
 lab=in2}
-N 200 -140 240 -140 {
+N -40 -380 60 -380 {
+lab=in2}
+N -40 -380 -40 -180 {
+lab=in2}
+N 60 -400 60 -380 {
+lab=in2}
+N 360 -380 360 -300 {
 lab=#net3}
-N 200 -480 240 -480 {
-lab=#net8}
-N -60 -480 120 -480 {
+N 360 -260 360 -180 {
+lab=#net4}
+N 20 -520 60 -520 {
+lab=in2}
+N 20 -640 20 -520 {
+lab=in2}
+N 20 -640 60 -640 {
+lab=in2}
+N 60 -580 60 -560 {
 lab=in1}
+N 20 -720 60 -720 {
+lab=#net5}
+N 20 -840 20 -720 {
+lab=#net5}
+N 20 -840 60 -840 {
+lab=#net5}
+N 60 -780 60 -760 {
+lab=in1}
+N 360 -780 360 -700 {
+lab=#net6}
+N 360 -660 360 -580 {
+lab=#net7}
+N 20 -240 20 -120 {
+lab=in1}
+N -60 -120 20 -120 {
+lab=in1}
+N -40 -520 -40 -380 {
+lab=in2}
+N -40 -520 20 -520 {
+lab=in2}
+N -60 -580 -60 -120 {
+lab=in1}
+N -180 -120 -60 -120 {
+lab=in1}
+N -60 -580 60 -580 {
+lab=in1}
+N 60 -600 60 -580 {
+lab=in1}
+N -60 -780 -60 -580 {
+lab=in1}
+N -60 -780 60 -780 {
+lab=in1}
+N 60 -800 60 -780 {
+lab=in1}
+N 480 -680 480 -500 {
+lab=pctrl}
+N 480 -460 480 -280 {
+lab=nctrl}
+N -880 -500 -880 -120 {
+lab=pctrl}
+N -880 -500 480 -500 {
+lab=pctrl}
+N -900 -460 480 -460 {
+lab=nctrl}
+N -900 -460 -900 -60 {
+lab=nctrl}
 C {sky130_fd_pr/corner.sym} -240 230 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {/usr/local/share/pdk/gnd.sym} -120 180 0 0 {name=l1 lab=GND}
 C {/usr/local/share/pdk/vsource.sym} -120 110 0 0 {name=V3 value=1.8 savecurrent=false}
@@ -224,7 +196,7 @@ C {devices/launcher.sym} -140 380 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/top.raw tran"
 }
-C {devices/lab_pin.sym} -60 -120 3 0 {name=in1 lab=in1}
+C {devices/lab_pin.sym} -80 -120 3 0 {name=in1 lab=in1}
 C {devices/vdd.sym} -140 40 0 0 {name=l2 lab=VDD}
 C {devices/connect.sym} -90 140 1 0 {name=R1 m=1}
 C {devices/connect.sym} -90 80 1 0 {name=R2 m=1}
@@ -257,7 +229,7 @@ C {tt_um_wulf_8bit_vco/xschem/lib/inv_strvd.sym} -580 -140 0 0 {name=x14 VDD=VDD
 C {tt_um_wulf_8bit_vco/xschem/lib/inv_strvd.sym} -490 -140 0 0 {name=x16 VDD=VDD VSS=GND}
 C {tt_um_wulf_8bit_vco/xschem/lib/inv_strvd.sym} -400 -140 0 0 {name=x17 VDD=VDD VSS=GND}
 C {tt_um_wulf_8bit_vco/xschem/lib/inv_strvd.sym} -310 -140 0 0 {name=x18 VDD=VDD VSS=GND}
-C {devices/lab_pin.sym} -20 -140 1 1 {name=in2 lab=in2}
+C {devices/lab_pin.sym} -80 -140 3 1 {name=in2 lab=in2}
 C {sky130_fd_pr/pfet_01v8.sym} -860 -120 0 0 {name=M1
 L=0.5
 W=1
@@ -294,26 +266,29 @@ value=100p}
 C {devices/lab_pin.sym} -350 -90 0 1 {name=ctrl lab=ctrl}
 C {sky130_stdcells/buf_1.sym} -220 -140 0 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {/usr/local/share/pdk/gnd.sym} -180 -60 0 0 {name=l3 lab=GND}
-C {sky130_stdcells/dfrtp_1.sym} 530 -140 2 1 {name=x1 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/vdd.sym} 240 -240 3 0 {name=l6 lab=VDD}
-C {devices/vdd.sym} 240 -160 3 0 {name=l7 lab=VDD}
-C {sky130_stdcells/or2_0.sym} 680 -200 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/lab_pin.sym} 740 -300 2 0 {name=nctrl lab=nctrl}
-C {devices/lab_pin.sym} 740 -320 2 0 {name=pctrl lab=pctrl}
-C {sky130_stdcells/dfrtp_1.sym} 530 -480 0 0 {name=x15 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/vdd.sym} 240 -380 3 1 {name=l8 lab=VDD}
-C {devices/vdd.sym} 240 -460 3 1 {name=l9 lab=VDD}
-C {sky130_stdcells/dfxbp_1.sym} 70 -430 2 1 {name=x12 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfxbp_1.sym} 70 -190 0 0 {name=x19 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/lab_pin.sym} 440 -200 2 0 {name=RESET_B lab=RESET_B}
-C {sky130_stdcells/nor2_1.sym} 680 -420 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} 160 -260 0 0 {name=x10 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} 160 -360 0 0 {name=x20 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 530 -260 0 0 {name=x3 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 530 -360 2 1 {name=x9 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 330 -160 2 1 {name=x2 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 330 -380 2 1 {name=x4 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 330 -460 0 0 {name=x5 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_1.sym} 330 -240 0 0 {name=x11 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 160 -480 0 0 {name=x21 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 160 -140 0 0 {name=x22 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -220 3 1 {name=l7 lab=VDD}
+C {sky130_stdcells/or2_0.sym} 420 -280 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} 480 -460 2 0 {name=nctrl lab=nctrl}
+C {devices/lab_pin.sym} 480 -500 2 0 {name=pctrl lab=pctrl}
+C {sky130_stdcells/and2_0.sym} 300 -180 0 0 {name=x11 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtp_1.sym} 150 -140 0 0 {name=x19 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtn_1.sym} 150 -220 2 1 {name=x1 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -140 3 1 {name=l6 lab=VDD}
+C {devices/vdd.sym} 60 -420 3 1 {name=l8 lab=VDD}
+C {sky130_stdcells/dfrtp_1.sym} 150 -340 0 0 {name=x2 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtn_1.sym} 150 -420 2 1 {name=x3 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -340 3 1 {name=l9 lab=VDD}
+C {sky130_stdcells/inv_1.sym} 20 -280 3 0 {name=x4 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/and2_0.sym} 300 -380 0 0 {name=x5 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -620 3 1 {name=l10 lab=VDD}
+C {sky130_stdcells/and2_0.sym} 300 -580 0 0 {name=x9 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtp_1.sym} 150 -540 0 0 {name=x10 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtn_1.sym} 150 -620 2 1 {name=x12 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -540 3 1 {name=l11 lab=VDD}
+C {devices/vdd.sym} 60 -820 3 1 {name=l12 lab=VDD}
+C {sky130_stdcells/dfrtp_1.sym} 150 -740 0 0 {name=x15 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtn_1.sym} 150 -820 2 1 {name=x20 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vdd.sym} 60 -740 3 1 {name=l13 lab=VDD}
+C {sky130_stdcells/inv_1.sym} 20 -680 3 0 {name=x21 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/and2_0.sym} 300 -780 0 0 {name=x22 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/nor2_1.sym} 420 -680 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
