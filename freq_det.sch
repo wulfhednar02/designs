@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.96563e-07
-x2=2.72431e-06
+x1=3.54982e-05
+x2=3.55575e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -27,9 +27,9 @@ logx=0
 logy=0
 
 
-y2=2
-y1=-0.058
-color="4 5"
+y2=1.9
+y1=-0.0045
+color="8 5"
 node="in1
 in2"}
 B 2 800 0 1600 400 {flags=graph
@@ -40,8 +40,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=3.96563e-07
-x2=2.72431e-06
+x1=3.54982e-05
+x2=3.55575e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -54,8 +54,8 @@ logx=0
 logy=0
 
 
-y2=2
-y1=-0.18
+y2=1.9
+y1=-0.033
 
 color="4 5 6"
 node="pctrl
@@ -97,8 +97,6 @@ N -840 -30 -740 -30 {
 lab=GND}
 N -840 -90 -710 -90 {
 lab=ctrl}
-N -180 -140 -40 -140 {
-lab=in2}
 N -440 -90 -350 -90 {
 lab=ctrl}
 N -900 -60 -880 -60 {
@@ -165,8 +163,6 @@ N -40 -520 20 -520 {
 lab=in2}
 N -60 -580 -60 -120 {
 lab=in1}
-N -180 -120 -60 -120 {
-lab=in1}
 N -60 -580 60 -580 {
 lab=in1}
 N 60 -600 60 -580 {
@@ -189,6 +185,14 @@ N -900 -460 480 -460 {
 lab=nctrl}
 N -900 -460 -900 -60 {
 lab=nctrl}
+N -180 -120 -160 -120 {
+lab=#net8}
+N -260 -140 -160 -140 {
+lab=#net1}
+N -80 -140 -40 -140 {
+lab=in2}
+N -80 -120 -60 -120 {
+lab=in1}
 C {sky130_fd_pr/corner.sym} -240 230 0 0 {name=CORNER only_toplevel=true corner=tt}
 C {/usr/local/share/pdk/gnd.sym} -120 180 0 0 {name=l1 lab=GND}
 C {/usr/local/share/pdk/vsource.sym} -120 110 0 0 {name=V3 value=1.8 savecurrent=false}
@@ -264,7 +268,7 @@ C {devices/capa.sym} -740 -60 0 0 {name=C1
 m=1
 value=100p}
 C {devices/lab_pin.sym} -350 -90 0 1 {name=ctrl lab=ctrl}
-C {sky130_stdcells/buf_1.sym} -220 -140 0 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} -120 -140 0 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {/usr/local/share/pdk/gnd.sym} -180 -60 0 0 {name=l3 lab=GND}
 C {devices/vdd.sym} 60 -220 3 1 {name=l7 lab=VDD}
 C {sky130_stdcells/or2_0.sym} 420 -280 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
@@ -292,3 +296,4 @@ C {devices/vdd.sym} 60 -740 3 1 {name=l13 lab=VDD}
 C {sky130_stdcells/inv_1.sym} 20 -680 3 0 {name=x21 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/and2_0.sym} 300 -780 0 0 {name=x22 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/nor2_1.sym} 420 -680 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} -120 -120 0 0 {name=x23 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
