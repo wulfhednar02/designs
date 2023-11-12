@@ -40,7 +40,7 @@ nf=1 mult=1
 model=nfet_01v8
 spiceprefix=X
 }
-C {pfet_01v8.sym} -20 -30 0 0 {name=M1
+C {sky130_fd_pr/pfet_01v8.sym} -20 -30 0 0 {name=M1
 L=4
 W=40
 nf=1
