@@ -1,0 +1,28 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 60 -30 80 -30 {}
+L 4 60 -10 80 -10 {}
+L 4 -80 -30 -60 -30 {}
+L 4 -80 -10 -60 -10 {}
+L 4 -60 -40 -60 0 {}
+L 4 60 -40 60 0 {}
+L 4 -60 -40 60 -40 {}
+L 4 -60 -0 60 -0 {}
+B 5 77.5 -32.5 82.5 -27.5 {name=OSC_SLOW dir=out}
+B 5 77.5 -12.5 82.5 -7.5 {name=OSC_FAST dir=out}
+B 5 -82.5 -32.5 -77.5 -27.5 {name=OSC_IN dir=in}
+B 5 -82.5 -12.5 -77.5 -7.5 {name=REF_CLK dir=in}
+T {@symname} -60 -60 0 0 0.3 0.3 {}
+T {@name} -60 0 0 0 0.2 0.2 {}
+T {OSC_SLOW} 55 -34 0 1 0.2 0.2 {}
+T {OSC_FAST} 55 -14 0 1 0.2 0.2 {}
+T {OSC_IN} -55 -34 0 0 0.2 0.2 {}
+T {REF_CLK} -55 -14 0 0 0.2 0.2 {}
